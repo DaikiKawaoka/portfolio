@@ -48,7 +48,7 @@ li{
     display: flex;
     position: absolute;
     top: 50px;
-    right: 230px;
+    right: 220px;
     list-style: none;
   }
 
@@ -62,7 +62,6 @@ li{
     border-bottom: solid 5px #cccccc;
   }
   .main-main{
-  border-bottom: solid 5px #cccccc;
   margin-top: 20px;
   padding-bottom: 20px;
 }
@@ -85,13 +84,15 @@ li{
   width: 485px;
   height: 400px;
   margin:0 auto;
-  border: #888888 solid 2px;
+  border: #ccc solid 2px;
   border-radius: 3px;
 }
 .skill-name{
-  width: 90%;
+  width: 100%;
   font-size: 25px;
   text-align: center;
+  font-family: 'Playfair Display', serif;
+
 }
 .skill-table{
   width: 90%;
@@ -99,6 +100,16 @@ li{
 }
 .skill-row{
   height: 20px;
+}
+.skill-sikaku-row{
+  padding-bottom: 20px;
+}
+.aaa{
+  padding-bottom: 10px;
+  border-bottom: #ccc solid;
+}
+.bbb{
+  padding-top: 20px;
 }
 
 /* 星マーク ----------------------*/
@@ -156,14 +167,47 @@ li{
   /* -------------------------- */
 
 footer{
+  border-top: #ccc solid 5px;
   margin: 20px 0 0 0;
-  height: 100px;
+  height: 120px;
 }
 .footer-ul{
   display: flex;
   padding: 0;
   list-style: none;
+  margin-top: 40px;
 }
 .footer-p{
   text-align: right;
+}
+.footer-home{
+  margin-left: 0;
+}
+/* ----------------------------------- */
+
+/* about */
+
+.about-title{
+  margin-left: 20px;
+  font-size: 40px;
+  font-family: 'Playfair Display', serif;
+}
+.about-main-main{
+  display: flex;
+  padding-bottom: 40px;
+  border-bottom: #ccc solid 5px;
+}
+.about-img{
+  width: 250px;
+  border-radius: 2px;
+}
+.about-main-right{
+  margin-left: 40px;
+}
+.contact{
+}
+.mailaddress{
+  text-decoration:none;
+  color: #000;
+  font-family: 'Playfair Display', serif;
 }
