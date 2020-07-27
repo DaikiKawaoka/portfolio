@@ -214,4 +214,9 @@ footer{
 .works-img{
   margin-top: 20px;
   width: 800px;
+  border: #444 solid 1px;
+}
+.u22{
+  padding-bottom: 50px;
+  border-bottom: #ccc 1px solid;
 }
