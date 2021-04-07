@@ -70,12 +70,7 @@ li{
   text-align: center;
   font-family: 'Playfair Display', serif;
 }
-/* .skill-main{
-  width: 1000px;
-  height: 800px;
-  margin: 0 auto;
-  border: #ccc solid;
-} */
+
 .skill-matome-div{
   display: flex;
   margin-bottom: 12px;
